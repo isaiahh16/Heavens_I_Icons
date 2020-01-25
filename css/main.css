@@ -1,0 +1,121 @@
+@charset "UTF-8"
+
+#hidden {
+	display: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#mainNav {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+background: rgb(255,48,25); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+}
+
+#mainNav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#mainNav ul li {
+	display: flex;
+	justify-content: center;
+	display: inline-block;
+}
+
+#mainNav ul li a {
+	display: flex;
+	justify-content: center;
+	float: left;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#mainNav ul li a:hover
+{
+	box-shadow: 5px;
+	color: black;
+}
+
+#banner {
+	margin: 0 auto;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid grey;
+}
+
+#icons {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#iconCon {
+	display: flex;
+  	margin-bottom: 40px;
+  	padding: 20px;
+
+  	cursor: pointer;
+
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+#iconCon:hover {
+	transition: all .2s ease-in-out; 
+	transform: scale(1.2);       
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.5)); 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
