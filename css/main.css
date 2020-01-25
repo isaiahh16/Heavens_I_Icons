@@ -103,8 +103,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', end
 	transition: all .2s ease-in-out; 
 	transform: scale(1.2);       
     filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.5)); 
-
 }
+
+img:focus {
+	outline: grey solid 2px;
+}
+
 
 
 
